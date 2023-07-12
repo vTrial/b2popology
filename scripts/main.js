@@ -7050,52 +7050,6 @@ const buttons = {
     }
 }
 
-//Tower Buttons
-// const dartMonkeyButton = document.querySelector(".dartMonkeyButton")
-// const boomerangMonkeyButton = document.querySelector(".boomerangMonkeyButton")
-// const bombShooterButton = document.querySelector(".bombShooterButton")
-// const tackShooterButton = document.querySelector(".tackShooterButton")
-// const iceMonkeyButton = document.querySelector(".iceMonkeyButton")
-// const glueGunnerButton = document.querySelector(".glueGunnerButton")
-
-// const sniperMonkeyButton = document.querySelector(".sniperMonkeyButton")
-// const monkeySubButton = document.querySelector(".monkeySubButton")
-// const monkeyBuccaneerButton = document.querySelector(".monkeyBuccaneerButton")
-// const monkeyAceButton = document.querySelector(".monkeyAceButton")
-// const heliPilotButton = document.querySelector(".heliPilotButton")
-// const mortarMonkeyButton = document.querySelector(".mortarMonkeyButton")
-// const dartlingGunnerButton = document.querySelector(".dartlingGunnerButton")
-
-// const wizardMonkeyButton = document.querySelector(".wizardMonkeyButton")
-// const superMonkeyButton = document.querySelector(".superMonkeyButton")
-// const ninjaMonkeyButton = document.querySelector(".ninjaMonkeyButton")
-// const alchemistButton = document.querySelector(".alchemistButton")
-// const druidButton = document.querySelector(".druidButton")
-
-// const monkeyVillageButton = document.querySelector(".monkeyVillageButton")
-// const bananaFarmButton = document.querySelector(".bananaFarmButton")
-// const spikeFactoryButton = document.querySelector(".spikeFactoryButton")
-// const engineerMonkeyButton = document.querySelector(".engineerMonkeyButton")
-
-// const quincyButton = document.querySelector(".quincyButton")
-// const cyberQuincyButton = document.querySelector(".cyberQuincyButton")
-// const gwendolynButton = document.querySelector(".gwendolynButton")
-// const scientistGwendolynButton = document.querySelector(".scientistGwendolynButton")
-// const obynButton = document.querySelector(".obynButton")
-// const oceanObynButton = document.querySelector(".oceanObynButton")
-// const strikerJonesButton = document.querySelector(".strikerJonesButton")
-// const bikerBonesButton = document.querySelector(".bikerBonesButton")
-// const captainChurchillButton = document.querySelector(".captainChurchillButton")
-// const sentaiChurchillButton = document.querySelector(".sentaiChurchillButton")
-// const benjaminButton = document.querySelector(".benjaminButton")
-// const djBenjamminButton = document.querySelector(".djBenjamminButton")
-// const eziliButton = document.querySelector(".eziliButton")
-// const smudgeCattEziliButton = document.querySelector(".smudgeCattEziliButton")
-// const patFustyButton = document.querySelector(".patFustyButton")
-// const fustyTheSnowmanButton = document.querySelector(".fustyTheSnowmanButton")
-// const agentJerichoButton = document.querySelector(".agentJerichoButton")
-// const highwaymanJerichoButton = document.querySelector(".highwaymanJerichoButton")
-
 pages = {
     
     "dartMonkey": {
