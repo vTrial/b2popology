@@ -1,0 +1,123 @@
+{
+    
+    "dartMonkey": {
+        "category":"primary"
+    },
+    "boomerangMonkey": {
+        "category":"primary"
+    },
+    "bombShooter": {
+        "category":"primary"
+    },
+    "tackShooter": {
+        "category":"primary"
+    },
+    "iceMonkey": {
+        "category":"primary"
+    },
+    "glueGunner": {
+        "category":"primary"
+    },
+    "sniperMonkey": {
+        "category":"military"
+    },
+    "monkeySub": {
+        "category":"military"
+    },
+    "monkeyBuccaneer": {
+        "category":"military"
+    },
+    "monkeyAce": {
+        "category":"military"
+    },
+    "heliPilot": {
+        "category":"military"
+    },
+    "mortarMonkey": {
+        "category":"military"
+    },
+    "dartlingGunner": {
+        "category":"military"
+    },
+    "wizardMonkey": {
+        "category":"magic"
+    },
+    "superMonkey": {
+        "category":"magic"
+    },
+    "ninjaMonkey": {
+        "category":"magic"
+    },
+    "alchemist": {
+        "category":"magic"
+    },
+    "druid": {
+        "category":"magic"
+    },
+    "monkeyVillage": {
+        "category":"support"
+    },
+    "bananaFarm": {
+        "category":"support"
+    },
+    "spikeFactory": {
+        "category":"support"
+    },
+    "engineerMonkey": {
+        "category":"support"
+    },
+    "quincy": {
+        "category":"heroes"
+    },
+    "cyberQuincy": {
+        "category":"heroes"
+    },
+    "gwendolyn": {
+        "category":"heroes"
+    },
+    "scientistGwendolyn": {
+        "category":"heroes"
+    },
+    "obyn": {
+        "category":"heroes"
+    },
+    "oceanObyn": {
+        "category":"heroes"
+    },
+    "strikerJones": {
+        "category":"heroes"
+    },
+    "bikerBones": {
+        "category":"heroes"
+    },
+    "captainChurchill": {
+        "category":"heroes"
+    },
+    "sentaiChurchill": {
+        "category":"heroes"
+    },
+    "benjamin": {
+        "category":"heroes"
+    },
+    "djBenjammin": {
+        "category":"heroes"
+    },
+    "ezili": {
+        "category":"heroes"
+    },
+    "smudgeCattEzili": {
+        "category":"heroes"
+    },
+    "patFusty": {
+        "category":"heroes"
+    },
+    "fustyTheSnowman": {
+        "category":"heroes"
+    },
+    "agentJericho": {
+        "category":"heroes"
+    },
+    "highwaymanJericho": {
+        "category":"heroes"
+    }
+}

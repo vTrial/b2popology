@@ -7051,50 +7051,180 @@ const buttons = {
 }
 
 //Tower Buttons
-const dartMonkeyButton = document.querySelector(".dartMonkeyButton")
-const boomerangMonkeyButton = document.querySelector(".boomerangMonkeyButton")
-const bombShooterButton = document.querySelector(".bombShooterButton")
-const tackShooterButton = document.querySelector(".tackShooterButton")
-const iceMonkeyButton = document.querySelector(".iceMonkeyButton")
-const glueGunnerButton = document.querySelector(".glueGunnerButton")
+// const dartMonkeyButton = document.querySelector(".dartMonkeyButton")
+// const boomerangMonkeyButton = document.querySelector(".boomerangMonkeyButton")
+// const bombShooterButton = document.querySelector(".bombShooterButton")
+// const tackShooterButton = document.querySelector(".tackShooterButton")
+// const iceMonkeyButton = document.querySelector(".iceMonkeyButton")
+// const glueGunnerButton = document.querySelector(".glueGunnerButton")
 
-const sniperMonkeyButton = document.querySelector(".sniperMonkeyButton")
-const monkeySubButton = document.querySelector(".monkeySubButton")
-const monkeyBuccaneerButton = document.querySelector(".monkeyBuccaneerButton")
-const monkeyAceButton = document.querySelector(".monkeyAceButton")
-const heliPilotButton = document.querySelector(".heliPilotButton")
-const mortarMonkeyButton = document.querySelector(".mortarMonkeyButton")
-const dartlingGunnerButton = document.querySelector(".dartlingGunnerButton")
+// const sniperMonkeyButton = document.querySelector(".sniperMonkeyButton")
+// const monkeySubButton = document.querySelector(".monkeySubButton")
+// const monkeyBuccaneerButton = document.querySelector(".monkeyBuccaneerButton")
+// const monkeyAceButton = document.querySelector(".monkeyAceButton")
+// const heliPilotButton = document.querySelector(".heliPilotButton")
+// const mortarMonkeyButton = document.querySelector(".mortarMonkeyButton")
+// const dartlingGunnerButton = document.querySelector(".dartlingGunnerButton")
 
-const wizardMonkeyButton = document.querySelector(".wizardMonkeyButton")
-const superMonkeyButton = document.querySelector(".superMonkeyButton")
-const ninjaMonkeyButton = document.querySelector(".ninjaMonkeyButton")
-const alchemistButton = document.querySelector(".alchemistButton")
-const druidButton = document.querySelector(".druidButton")
+// const wizardMonkeyButton = document.querySelector(".wizardMonkeyButton")
+// const superMonkeyButton = document.querySelector(".superMonkeyButton")
+// const ninjaMonkeyButton = document.querySelector(".ninjaMonkeyButton")
+// const alchemistButton = document.querySelector(".alchemistButton")
+// const druidButton = document.querySelector(".druidButton")
 
-const monkeyVillageButton = document.querySelector(".monkeyVillageButton")
-const bananaFarmButton = document.querySelector(".bananaFarmButton")
-const spikeFactoryButton = document.querySelector(".spikeFactoryButton")
-const engineerMonkeyButton = document.querySelector(".engineerMonkeyButton")
+// const monkeyVillageButton = document.querySelector(".monkeyVillageButton")
+// const bananaFarmButton = document.querySelector(".bananaFarmButton")
+// const spikeFactoryButton = document.querySelector(".spikeFactoryButton")
+// const engineerMonkeyButton = document.querySelector(".engineerMonkeyButton")
 
-const quincyButton = document.querySelector(".quincyButton")
-const cyberQuincyButton = document.querySelector(".cyberQuincyButton")
-const gwendolynButton = document.querySelector(".gwendolynButton")
-const scientistGwendolynButton = document.querySelector(".scientistGwendolynButton")
-const obynButton = document.querySelector(".obynButton")
-const oceanObynButton = document.querySelector(".oceanObynButton")
-const strikerJonesButton = document.querySelector(".strikerJonesButton")
-const bikerBonesButton = document.querySelector(".bikerBonesButton")
-const captainChurchillButton = document.querySelector(".captainChurchillButton")
-const sentaiChurchillButton = document.querySelector(".sentaiChurchillButton")
-const benjaminButton = document.querySelector(".benjaminButton")
-const djBenjamminButton = document.querySelector(".djBenjamminButton")
-const eziliButton = document.querySelector(".eziliButton")
-const smudgeCattEziliButton = document.querySelector(".smudgeCattEziliButton")
-const patFustyButton = document.querySelector(".patFustyButton")
-const fustyTheSnowmanButton = document.querySelector(".fustyTheSnowmanButton")
-const agentJerichoButton = document.querySelector(".agentJerichoButton")
-const highwaymanJerichoButton = document.querySelector(".highwaymanJerichoButton")
+// const quincyButton = document.querySelector(".quincyButton")
+// const cyberQuincyButton = document.querySelector(".cyberQuincyButton")
+// const gwendolynButton = document.querySelector(".gwendolynButton")
+// const scientistGwendolynButton = document.querySelector(".scientistGwendolynButton")
+// const obynButton = document.querySelector(".obynButton")
+// const oceanObynButton = document.querySelector(".oceanObynButton")
+// const strikerJonesButton = document.querySelector(".strikerJonesButton")
+// const bikerBonesButton = document.querySelector(".bikerBonesButton")
+// const captainChurchillButton = document.querySelector(".captainChurchillButton")
+// const sentaiChurchillButton = document.querySelector(".sentaiChurchillButton")
+// const benjaminButton = document.querySelector(".benjaminButton")
+// const djBenjamminButton = document.querySelector(".djBenjamminButton")
+// const eziliButton = document.querySelector(".eziliButton")
+// const smudgeCattEziliButton = document.querySelector(".smudgeCattEziliButton")
+// const patFustyButton = document.querySelector(".patFustyButton")
+// const fustyTheSnowmanButton = document.querySelector(".fustyTheSnowmanButton")
+// const agentJerichoButton = document.querySelector(".agentJerichoButton")
+// const highwaymanJerichoButton = document.querySelector(".highwaymanJerichoButton")
+
+pages = {
+    
+    "dartMonkey": {
+        "category":"primary"
+    },
+    "boomerangMonkey": {
+        "category":"primary"
+    },
+    "bombShooter": {
+        "category":"primary"
+    },
+    "tackShooter": {
+        "category":"primary"
+    },
+    "iceMonkey": {
+        "category":"primary"
+    },
+    "glueGunner": {
+        "category":"primary"
+    },
+    "sniperMonkey": {
+        "category":"military"
+    },
+    "monkeySub": {
+        "category":"military"
+    },
+    "monkeyBuccaneer": {
+        "category":"military"
+    },
+    "monkeyAce": {
+        "category":"military"
+    },
+    "heliPilot": {
+        "category":"military"
+    },
+    "mortarMonkey": {
+        "category":"military"
+    },
+    "dartlingGunner": {
+        "category":"military"
+    },
+    "wizardMonkey": {
+        "category":"magic"
+    },
+    "superMonkey": {
+        "category":"magic"
+    },
+    "ninjaMonkey": {
+        "category":"magic"
+    },
+    "alchemist": {
+        "category":"magic"
+    },
+    "druid": {
+        "category":"magic"
+    },
+    "monkeyVillage": {
+        "category":"support"
+    },
+    "bananaFarm": {
+        "category":"support"
+    },
+    "spikeFactory": {
+        "category":"support"
+    },
+    "engineerMonkey": {
+        "category":"support"
+    },
+    "quincy": {
+        "category":"heroes"
+    },
+    "cyberQuincy": {
+        "category":"heroes"
+    },
+    "gwendolyn": {
+        "category":"heroes"
+    },
+    "scientistGwendolyn": {
+        "category":"heroes"
+    },
+    "obyn": {
+        "category":"heroes"
+    },
+    "oceanObyn": {
+        "category":"heroes"
+    },
+    "strikerJones": {
+        "category":"heroes"
+    },
+    "bikerBones": {
+        "category":"heroes"
+    },
+    "captainChurchill": {
+        "category":"heroes"
+    },
+    "sentaiChurchill": {
+        "category":"heroes"
+    },
+    "benjamin": {
+        "category":"heroes"
+    },
+    "djBenjammin": {
+        "category":"heroes"
+    },
+    "ezili": {
+        "category":"heroes"
+    },
+    "smudgeCattEzili": {
+        "category":"heroes"
+    },
+    "patFusty": {
+        "category":"heroes"
+    },
+    "fustyTheSnowman": {
+        "category":"heroes"
+    },
+    "agentJericho": {
+        "category":"heroes"
+    },
+    "highwaymanJericho": {
+        "category":"heroes"
+    }
+}
+
+pageButtons = {}
+for (const page in pages) {
+    pageButtons[page] = document.querySelector(`.${page}Button`);
+    pageButtonListener(page);
+}
 
 let selectedButtons = {};
 
@@ -7254,6 +7384,12 @@ function changeCategoryButtons() {
 	history.replaceState(null, null, "?" + urlParams.toString());
 };
 
+function pageButtonListener(page) {
+    pageButtons[page].addEventListener("click", () => {
+		selectedPage = page;
+		changeCategoryButtons();
+    })
+}
 function createButtonListeners() {
 	//Tower Category Button Listeners
 
@@ -7285,210 +7421,6 @@ function createButtonListeners() {
     buttons.heroes.selector.addEventListener("click", () => {
         selectedCategory = "heroes"
         selectedPage = "quincy";
-        changeCategoryButtons();
-    })
-
-	//Primary Button Listeners
-	dartMonkeyButton.addEventListener("click", () => {
-		selectedPage = "dartMonkey";
-		changeCategoryButtons();
-	})
-
-	boomerangMonkeyButton.addEventListener("click", () => {
-		selectedPage = "boomerangMonkey";
-		changeCategoryButtons();
-	})
-
-	bombShooterButton.addEventListener("click", () => {
-		selectedPage = "bombShooter";
-		changeCategoryButtons();
-	})
-
-	tackShooterButton.addEventListener("click", () => {
-		selectedPage = "tackShooter";
-		changeCategoryButtons();
-	})
-
-	iceMonkeyButton.addEventListener("click", () => {
-		selectedPage = "iceMonkey";
-		changeCategoryButtons();
-	})
-
-	glueGunnerButton.addEventListener("click", () => {
-		selectedPage = "glueGunner";
-		changeCategoryButtons();
-	})
-
-	//Military Button Listeners
-	sniperMonkeyButton.addEventListener("click", () => {
-		selectedPage = "sniperMonkey";
-		changeCategoryButtons();
-	})
-
-	monkeySubButton.addEventListener("click", () => {
-		selectedPage = "monkeySub";
-		changeCategoryButtons();
-	})
-
-	monkeyBuccaneerButton.addEventListener("click", () => {
-		selectedPage = "monkeyBuccaneer";
-		changeCategoryButtons();
-	})
-
-	monkeyAceButton.addEventListener("click", () => {
-		selectedPage = "monkeyAce";
-		changeCategoryButtons();
-	})
-
-	heliPilotButton.addEventListener("click", () => {
-		selectedPage = "heliPilot";
-		changeCategoryButtons();
-	})
-
-	mortarMonkeyButton.addEventListener("click", () => {
-		selectedPage = "mortarMonkey";
-		changeCategoryButtons();
-	})
-
-	dartlingGunnerButton.addEventListener("click", () => {
-		selectedPage = "dartlingGunner";
-		changeCategoryButtons();
-	})
-
-	//Magic Button Listeners
-	wizardMonkeyButton.addEventListener("click", () => {
-		selectedPage = "wizardMonkey";
-		changeCategoryButtons();
-	})
-
-	superMonkeyButton.addEventListener("click", () => {
-		selectedPage = "superMonkey";
-		changeCategoryButtons();
-	})
-
-	ninjaMonkeyButton.addEventListener("click", () => {
-		selectedPage = "ninjaMonkey";
-		changeCategoryButtons();
-	})
-
-	alchemistButton.addEventListener("click", () => {
-		selectedPage = "alchemist";
-		changeCategoryButtons();
-	})
-
-	druidButton.addEventListener("click", () => {
-		selectedPage = "druid";
-		changeCategoryButtons();
-	})
-
-	//Support Button Listeners
-	monkeyVillageButton.addEventListener("click", () => {
-		selectedPage = "monkeyVillage";
-		changeCategoryButtons();
-	})
-
-	bananaFarmButton.addEventListener("click", () => {
-		selectedPage = "bananaFarm";
-		changeCategoryButtons();
-	})
-
-	spikeFactoryButton.addEventListener("click", () => {
-		selectedPage = "spikeFactory";
-		changeCategoryButtons();
-	})
-
-	engineerMonkeyButton.addEventListener("click", () => {
-		selectedPage = "engineerMonkey";
-		changeCategoryButtons();
-	})
-
-    quincyButton.addEventListener("click", () => {
-        selectedPage = "quincy";
-        changeCategoryButtons();
-    })
-
-    cyberQuincyButton.addEventListener("click", () => {
-        selectedPage = "cyberQuincy";
-        changeCategoryButtons();
-    })
-
-    gwendolynButton.addEventListener("click", () => {
-        selectedPage = "gwendolyn";
-        changeCategoryButtons();
-    })
-
-    scientistGwendolynButton.addEventListener("click", () => {
-        selectedPage = "scientistGwendolyn";
-        changeCategoryButtons();
-    })
-
-    obynButton.addEventListener("click", () => {
-        selectedPage = "obyn";
-        changeCategoryButtons();
-    })
-
-    oceanObynButton.addEventListener("click", () => {
-        selectedPage = "oceanObyn";
-        changeCategoryButtons();
-    })
-
-    strikerJonesButton.addEventListener("click", () => {
-        selectedPage = "strikerJones";
-        changeCategoryButtons();
-    })
-
-    bikerBonesButton.addEventListener("click", () => {
-        selectedPage = "bikerBones";
-        changeCategoryButtons();
-    })
-
-    captainChurchillButton.addEventListener("click", () => {
-        selectedPage = "captainChurchill";
-        changeCategoryButtons();
-    })
-
-    sentaiChurchillButton.addEventListener("click", () => {
-        selectedPage = "sentaiChurchill";
-        changeCategoryButtons();
-    })
-
-    benjaminButton.addEventListener("click", () => {
-        selectedPage = "benjamin";
-        changeCategoryButtons();
-    })
-
-    djBenjamminButton.addEventListener("click", () => {
-        selectedPage = "djBenjammin";
-        changeCategoryButtons();
-    })
-
-    eziliButton.addEventListener("click", () => {
-        selectedPage = "ezili";
-        changeCategoryButtons();
-    })
-
-    smudgeCattEziliButton.addEventListener("click", () => {
-        selectedPage = "smudgeCattEzili";
-        changeCategoryButtons();
-    })
-
-    patFustyButton.addEventListener("click", () => {
-        selectedPage = "patFusty";
-        changeCategoryButtons();
-    })
-
-    fustyTheSnowmanButton.addEventListener("click", () => {
-        selectedPage = "fustyTheSnowman";
-        changeCategoryButtons();
-    })
-
-    agentJerichoButton.addEventListener("click", () => {
-        selectedPage = "agentJericho";
-        changeCategoryButtons();
-    })
-
-    highwaymanJerichoButton.addEventListener("click", () => {
-        selectedPage = "highwaymanJericho";
         changeCategoryButtons();
     })
 };
